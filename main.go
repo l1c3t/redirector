@@ -16,5 +16,4 @@ func main() {
 	e.GET("/tst", handlers.HWorld)
 	e.GET("/redir/:data", handlers.Redir)
 	e.Logger.Fatal(e.Start(":1323"))
-	//sddas
 }
