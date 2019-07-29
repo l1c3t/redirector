@@ -15,5 +15,5 @@ func main() {
 	e := echo.New()
 	e.GET("/tst", handlers.HWorld)
 	e.GET("/redir/:data", handlers.Redir)
-	e.Logger.Fatal(e.Start(":8080"))
+	e.Logger.Fatal(e.Start(":80"))
 }
